@@ -68,9 +68,9 @@
 	</dependencies>
 	
 	<distributionManagement>
-    <snapshotRepository>
-    <id>nexus</id>
-    <url>http://localhost:8081/#browse/browse:maven-releases</url>
+    	<snapshotRepository>
+    	<id>nexus</id>
+    	<url>http://localhost:8081/#browse/browse:maven-releases</url>
     </snapshotRepository>
   </distributionManagement>
 	<build>
