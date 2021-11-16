@@ -66,6 +66,13 @@
 			<version>0.7.5.201505241946</version>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+    <snapshotRepository>
+    <id>nexus</id>
+    <url>http://localhost:8081/#browse/browse:maven-releases</url>
+    </snapshotRepository>
+  </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
